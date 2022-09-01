@@ -76,3 +76,8 @@ gem 'activeadmin'
 gem 'inherited_resources'
 gem 'bcrypt-ruby'
 gem 'sass-rails'
+
+group :development, :test do
+    gem 'rspec-rails'
+    gem 'rails-controller-testing'
+end
